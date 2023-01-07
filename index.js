@@ -40,8 +40,6 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
                 let audio7 = new Audio("sounds/kick-bass.mp3");
                 audio7.play();
                 break;
-            default:
-                console.log("");
         }
     }
     function buttonAnimation(key)
